@@ -15,7 +15,7 @@ module.exports = function () {
                 exports: 'jQuery'
             }
             ,twbs_bootstrap: {
-                path: './lib/bower_components/bootstrap/dist/js/bootstrap.js',
+                path: './bower_components/bootstrap/dist/js/bootstrap.js',
                 exports: 'twbs_bootstrap',
                 depends: {jquery: 'jQuery'}
             }

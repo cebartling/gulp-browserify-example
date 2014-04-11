@@ -5,7 +5,7 @@
     "description": "Web client spike for GrokEarth",
     "browser": {
         "jquery": "./node_modules/jquery/dist/jquery.js",
-        "twbs_bootstrap": "./lib/bower_components/bootstrap/dist/js/bootstrap.js",
+        "twbs_bootstrap": "./bower_components/bootstrap/dist/js/bootstrap.js",
         "plugin": "./src/scripts/vendor/jquery-plugin.js"
     },
     "browserify": {
@@ -21,7 +21,7 @@
             "exports": "jQuery"
         },
         "twbs_bootstrap": {
-            "path": "./lib/bower_components/bootstrap/dist/js/bootstrap.js",
+            "path": "./bower_components/bootstrap/dist/js/bootstrap.js",
             "exports": "twbsbootstrap",
             "depends": [
                 "jquery:$"
