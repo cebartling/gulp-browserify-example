@@ -15,9 +15,9 @@ Installation
 This assumes that you have Node.js installed.  If you don't, go get it for your platform of choice. The npm
 tool comes with the Node.js runtime.
 
-
 1. Install the node modules: `npm install`
-2. Retrieve bower components via gulp and bower: `gulp setup`.  This will pull down Twitter Bootstrap 3.x and Modernizr.  
-3. Build everything and serve it through gulp: `gulp`.  If Chrome doesn't automatically come up, navigate with a
+2. Install Compass (assumes you have Ruby installed): `gem install compass`.  We use SASS in our example.   
+3. Retrieve bower components via gulp and bower: `gulp setup`.  This will pull down Twitter Bootstrap 3.x and Modernizr.  
+4. Build everything and serve it through gulp: `gulp`.  If Chrome doesn't automatically come up, navigate with a
 browser to http://localhost:8080.
 
