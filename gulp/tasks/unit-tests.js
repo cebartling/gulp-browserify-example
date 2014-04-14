@@ -9,7 +9,7 @@ module.exports = function () {
         timeout: 3000
     };
 
-    gulp.src('./specs/*-spec.js')
+    gulp.src('./specs/**/*-spec.js')
         .pipe(jasmine(options));
 
     return gulp;
