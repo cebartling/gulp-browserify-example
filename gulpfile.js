@@ -6,7 +6,8 @@ var gulp = require('./gulp')([
     'images',
     'open',
     'watch',
-    'serve'
+    'serve',
+    'unit-tests'
 ]);
 
 gulp.task('setup', ['bower']);
